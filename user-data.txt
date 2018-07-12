@@ -1,5 +1,11 @@
 #!/bin/bash -v
 passwd winterwonderland
+echo "8.8.8.8" > /etc/resolve.conf
+while ! ping -c 1 -n -w 1 google.com &> /dev/null
+do
+    printf "%c" "."
+done
+printf "\n%s\n"  "network online"
 yum install -y git ansible yum-utils device-mapper-persistent-data lvm2
 yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
 yum install -y docker-ce
