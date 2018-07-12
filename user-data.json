@@ -1,0 +1,16 @@
+{
+    "server": {
+        "config_drive": true,
+        "flavorRef": "2",
+        "imageRef": "0a9bd300-f621-b8cf-4894-257c72206538",
+        "key_name": "jkelly_platform9",
+        "metadata": {},
+        "name": "Ansible_on_Boot",
+        "networks": [
+            {
+                "uuid": "9b00ca16-e135-415e-8fc3-dfc4cace16b1"
+            }
+        ],
+        "user_data": "IyEvYmluL2Jhc2ggLXYKeXVtIGluc3RhbGwgLXkgZ2l0IGFuc2libGUgeXVtLXV0aWxzIGRldmljZS1tYXBwZXItcGVyc2lzdGVudC1kYXRhIGx2bTIKeXVtLWNvbmZpZy1tYW5hZ2VyIC0tYWRkLXJlcG8gaHR0cHM6Ly9kb3dubG9hZC5kb2NrZXIuY29tL2xpbnV4L2NlbnRvcy9kb2NrZXItY2UucmVwbwpjZCAvcm9vdApnaXQgY2xvbmUgaHR0cHM6Ly9naXRodWIuY29tL3RvbWNocmlzL3ZpZGVvLXNlcnZlcgpjZCAvcm9vdC92aWRlby1zZXJ2ZXIKLi9CdWlsZAo="
+    }
+}

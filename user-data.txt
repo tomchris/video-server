@@ -1,0 +1,7 @@
+#!/bin/bash -v
+yum install -y git ansible yum-utils device-mapper-persistent-data lvm2
+yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+cd /root
+git clone https://github.com/tomchris/video-server
+cd /root/video-server
+./Build
