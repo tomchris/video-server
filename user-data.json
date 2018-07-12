@@ -5,12 +5,12 @@
         "imageRef": "0a9bd300-f621-b8cf-4894-257c72206538",
         "key_name": "demo",
         "metadata": {},
-        "name": "web-app-11",
+        "name": "web-app-01",
         "networks": [
             {
                 "uuid": "40046245-78ba-4552-9a7b-ec9e30f02487"
             }
         ],
-        "user_data": "IyEvYmluL2Jhc2ggLXYKcGFzc3dkIHdpbnRlcndvbmRlcmxhbmQKZWNobyAid2FpdGluZyAxIG1pbnV0ZSBmb3IgbmV0d29yayIKc2xlZXAgNjAKZWNobyAicmVzdW1pbmcgY2xvdWRpbml0Igp5dW0gaW5zdGFsbCAteSBnaXQgYW5zaWJsZSB5dW0tdXRpbHMgZGV2aWNlLW1hcHBlci1wZXJzaXN0ZW50LWRhdGEgbHZtMgp5dW0tY29uZmlnLW1hbmFnZXIgLS1hZGQtcmVwbyBodHRwczovL2Rvd25sb2FkLmRvY2tlci5jb20vbGludXgvY2VudG9zL2RvY2tlci1jZS5yZXBvCnl1bSBpbnN0YWxsIC15IGRvY2tlci1jZQpzeXN0ZW1jdGwgc3RhcnQgZG9ja2VyCmNkIC9yb290CmdpdCBjbG9uZSBodHRwczovL2dpdGh1Yi5jb20vdG9tY2hyaXMvdmlkZW8tc2VydmVyCmNkIC9yb290L3ZpZGVvLXNlcnZlcgouL0J1aWxkCg=="
+        "user_data": "IyEvYmluL2Jhc2ggLXYKcGFzc3dkIHdpbnRlcndvbmRlcmxhbmQKZWNobyAid2FpdGluZyA0IG1pbnV0ZXMgZm9yIG5ldHdvcmsiCnNsZWVwIDI0MAplY2hvICJyZXN1bWluZyBjbG91ZGluaXQiCnl1bSBpbnN0YWxsIC15IGdpdCBhbnNpYmxlIHl1bS11dGlscyBkZXZpY2UtbWFwcGVyLXBlcnNpc3RlbnQtZGF0YSBsdm0yCnl1bS1jb25maWctbWFuYWdlciAtLWFkZC1yZXBvIGh0dHBzOi8vZG93bmxvYWQuZG9ja2VyLmNvbS9saW51eC9jZW50b3MvZG9ja2VyLWNlLnJlcG8KeXVtIGluc3RhbGwgLXkgZG9ja2VyLWNlCnN5c3RlbWN0bCBzdGFydCBkb2NrZXIKY2QgL3Jvb3QKZ2l0IGNsb25lIGh0dHBzOi8vZ2l0aHViLmNvbS90b21jaHJpcy92aWRlby1zZXJ2ZXIKY2QgL3Jvb3QvdmlkZW8tc2VydmVyCi4vQnVpbGQK"
     }
 }
