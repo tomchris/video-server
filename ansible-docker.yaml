@@ -1,0 +1,24 @@
+---
+- hosts: 127.0.0.1
+  connection: local
+  tasks:
+    - name: ensure docker is at the latest version
+      yum: name=docker-ce state=latest
+    - name: start docker
+      service:
+          name: docker
+          state: started
+    - name: Install EPEL RELEASE Pre-Reqs
+      yum:
+        name: epel-release
+    - name: Install PIP Pre-Reqs
+      yum:
+        name: python-pip
+    - name: Install virtualenv
+      pip:
+        name: virtualenv
+        state: present
+    - name: Install docker-py
+      pip:
+        name: docker-py
+        state: present
